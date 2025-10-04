@@ -1,0 +1,267 @@
+<!--
+    Ajani Adlam 
+    2402087
+    IA# 1
+-->
+
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Individual Assesment #1">
+        <meta name="author" content="Ajani Adlam">
+        <title> A.A Personal Portfolio </title>
+        <link rel="stylesheet" href="../Styles.css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        body {
+            background-image: url('../Assets/back.jpg');
+        }
+
+        section.Header {
+            background-color: var(--inner);
+            border: 6px solid var(--border); 
+            margin-left: 200px;
+            margin-right: 200px;
+            box-shadow: 0 16px 50px 0 rgba(0,0,0,0.2);
+        }
+
+        section#Resumé, section#Personality {
+            background-color: var(--inner);
+            border: 6px solid var(--border); 
+            box-shadow: 0 16px 50px 0 rgba(0,0,0,0.2);
+        }
+
+        h1, h2{
+            font-family: CheapSignageStandard;
+            color: var(--header);
+            border: 3px solid var(--border);
+            background-color: var(--inner);
+            padding: 20px;
+        }
+
+        p{
+            font-size: 17px;
+            color: var(--header);
+        }
+        
+        div.center {
+            display: flex;
+            justify-content: center;
+        }
+
+        ul.demo_data {
+            display: inline-block;
+            text-align: left;
+            font-size: 15px;
+        }
+
+        div.navigation a{
+            text-align: center;
+            color: var(--text);
+            background-color: var(--inner);
+            display: inline-flex;
+            padding: 14px 20px;
+            border: 6px solid var(--border);
+            border-style: groove; 
+        }
+
+    </style>
+    <body>
+        <section class="Header">
+            <center>
+                <header> <!--Holds navigation links and demographic information.-->
+                    <h1> Ajani Adlam's Portfolio</h1>
+                    <img src="..\Assets\placeholder.webp" id="round" width="150px" height="150px" alt="Profile Picture">
+                    <a href="mailto:ajaniladlam@students.utech.edu.jm"><img src="..\Assets\email.png" title="Email me!"width="30px" height="30px" alt="Click to email me"></a>
+                    <p>Welcome to my portfolio created for my Individual Assessment.</p>
+                    <br>
+                    <p>Before I begin here is some demographic data about myself:</p>
+
+                    <div class="center">
+                        <ul class="demo_data"><!--my demographic information.-->
+                            <li> Age:  19 </li>
+                            <li> Gender:  M </li>
+                            <li> Education: University </li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div class="navigation">
+                        <nav> 
+                            <a href="#Resumé" title="Head to my Resumé." target="_self" >Resumé</a>  
+                            <a href="#Personality" title="Head to my Personality Info." target="_self" >Personal</a> 
+                            <a href="#Contact" title="Head to the Credits." target="_self" >Credits</a>
+                        </nav>
+                    </div>
+
+                </header>
+            </center>
+        </section>
+        <br>
+        <br>
+        <section id="Resumé">
+            <br>
+            <h1>My Resumé, Vision Statement and Mission Statement</h1>
+            <embed src="..\Assets\New Folder\Draft Resume.pdf" alt="My resume" width="800px" height="800px">
+
+            <div class="rw">
+                <div class="cw">
+                    <h2>Vision Statement </h2>
+                    <p> To be a successful independent creator and to be able to provide for my family and loved ones. </p>
+                </div>
+
+                <div class="cw">
+                    <h2> Mission Statement </h2>
+                    <p> To do what is neccessary in obtaining benefits that may help my goals and using my abilities to help others around me.</p>
+                </div>  
+            </div>
+            
+        </section>
+        <br>
+        <br>
+        <section id="Personality">
+            <br>
+            <h2>The Top 3 Hobbies That Define Me</h2>
+            <div class="rw">
+                <div class="cw">
+                    <h2>Drawing</h2>
+                    <img src="..\Assets\stock_drawing.jpg" width="400px" height="250px" alt="Drawing Sketch">
+                    <p> Animating and creating comics allows me to explain concepts and stay creative.</p>
+                </div>
+
+                <div class="cw">
+                    <h2> Reading </h2>
+                    <img src="..\Assets\Reading.webp" width="400px" height="250px" alt="Reading a Book">
+                    <p> Reading helps increase my concentration and fill my vocabulary.</p>
+                </div>
+                <div class="cw">
+                    <h2> Gaming </h2>
+                    <img src="..\Assets\Spelunky.png" width="400px" height="250px" alt="Spelunky">
+                    <p> Gaming develops my communication and teamwork skills.</p>
+                </div>
+            </div>    
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Role Model's Quote</h2>
+            <br>
+            <img src="..\Assets\you.jpg" width="600px" height="450px" alt="Despite Everything, It's Still You">
+            <p>"Despite everything, it's still you.  -UNDERTALE (Toby Fox, 2015)" </p>
+            <p>This quote's message fills you with the reassurance that despite the hardships you face, at the end of the day, you are still you.</p>
+
+            <img src="..\Assets\toby.jpg" id="round" width="400px" height="250px" alt="Toby Fox picture">
+            <p>Pictured above is one of my role models, Toby Fox, because he is a self-taught developer who has created a vastly successful game, Undertale, through his own hard work and determination.</p>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Personal Pick From AI Businesses</h2>
+            <p> From the given AI businesses I think that "Predictive maintenance for manufacturing plants" would be significantly beneficial as many Jamaicans rely on agriculture to<br> stay afloat and the preventative measures these systems would enforce can prevent small businesses from dying out. As with all AI powered solutions ethical issues <br>will emerge such as job displacement and loss of traditional practices, however I believe these issues can be circumvented through striking a balance between both worlds. An example of an app that uses this technology is:</p>
+            <p><a href="https://www.siemens.com/in/en/products/automation/industry-software/automation-software/mindsphere-apps.html">SIMATIC MindSphere Apps</a></p>
+            
+            <br>
+            <br>
+
+            <h2>Personal Development "Twelve Pillars"</h2>
+            <div class="rw">
+                <div class="cw">
+                    <h2>Chapter 4</h2>
+                    <p> This chapter consists mainly of a conversation taking place between two friends catching up after a long while of being apart, this conversation goes into themes of growing relationships being like gardening and setting goals for oneself.<br> Both these messages being spoken in the chapter can be easily applicable going forward in life, to pace myself through multiple goals, being proud of what I achieved to get there and to take care of the people I care about along the way.</p>
+                    <p> Chapter Quote - “Just decide what you want to do and then get started. That is one of the most powerful lessons in life.”</p>
+                </div>
+
+                <div class="cw">
+                    <h2> Chapter 5 </h2>
+                    <p> Chapter 5 serves as a continuation of the conversation started in Chapter 4, building off into spending your time wisely. <br>I can personally connect with Micheal's sentiments on not feeling able to commit to my set goals due to other things in life demanding my time and Charlie's reassuring answers are as applicable to Micheal's life as they are to mine</p>
+                    <p> Chapter Quote - “Days are expensive. When you spend a day you have one less day to spend. So make sure you spend each one wisely.”</p>
+                </div>
+
+            </div>           
+            <br>
+            <div class="rw">
+                <div class="cw">
+                    <h2>Chapter 6</h2>
+                    <p> This chapter covers another encounter our characters have and the defining lesson is personal development through the people around you. Surrounding yourself with positive traits leads to you inheriting them into your life.</p>
+                    <p> Chapter Quote - “Do you really think my friends are holding me back?”
+                </div>
+
+                <div class="cw">
+                    <h2> Chapter 7 </h2>
+                    <p> Chapter 7, again, continues the conversation begun in the previous chapter with the focus now being on Self-learning through observation, refelction and most importantly reading. <br>Charlie convinces Micheal over the course of the chapter to give reading a go in order to facilitate his own self growth.</p>
+                    <p> Chapter Quote - “Well, it is this: A successful person is always a life-long learner.” </p>
+                </div>
+
+            </div>
+            <br>
+
+
+            <h2>Card Style Favourite Media</h2>
+
+            <div class="rw">
+                <div class="cw">
+                    <div class="card">
+                        <a href="https://soundcloud.com/chrischristodouloumusic/coalescence"><img src="..\Assets\rain.jpg" width="280px" height="250px" title="Give it a Listen!"></a>
+                        <div class="container">
+                            <h4><b>"Coalescence" - Risk of Rain (Chris Christodoulou)</b></h4> 
+                            <p>Music</p> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cw">
+                    <div class="card">
+                        <img src="..\Assets\isaac.jpg" alt="The Binding of Isaac" width="200px" height="250px">
+                        <div class="container">
+                            <h4><b>The Binding of Isaac</b></h4> 
+                            <p>Video Game</p> 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cw">
+                    <div class="card">
+                        <img src="..\Assets\ponyo.jpg" alt="Ponyo" width="200px" height="250px">
+                        <div class="container">
+                            <h4><b>Ponyo</b></h4> 
+                            <p>Film / Movie</p> 
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <br>
+        </section>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
